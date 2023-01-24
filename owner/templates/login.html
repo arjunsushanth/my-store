@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    {%csrf_token%}
+        {{ form.as_p }}
+<!--  <div class="mb-3">-->
+<!--    <input type="text" id="id_username" name="username" placeholder="enter username">-->
+<!--  </div>-->
+<!--  <div class="mb-3">-->
+<!--    <input type="password" id="id_password" name="password" placeholder="enter password">-->
+<!--  </div>-->
+    <div class="mb-3">
+        <button type="submit">login</button>
+
+    </div>
+</form>
+
+</body>
+</html>
